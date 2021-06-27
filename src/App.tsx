@@ -6,6 +6,7 @@ import ResponseSpeed from "./components/ResponseSpeed";
 import Lottery from "./components/Lottery";
 import BaseballGame from "./components/BaseballGame";
 import RockScissorPaper from "./components/RockScissorPaper";
+import TicTacToe from "./components/TicTacToe";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Route path="/baseball" component={BaseballGame} />
       <Route path="/lottery" component={Lottery} />
       <Route path="/rock-scissor-paper" component={RockScissorPaper} />
+      <Route path="/tic-tac-toe" component={TicTacToe} />
     </Switch>
   );
 }

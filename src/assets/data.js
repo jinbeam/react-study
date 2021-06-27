@@ -35,5 +35,11 @@ export const data = [
       link: 'lottery',
       image: '/images/lottery.jpg'
     },
+    {
+      title: '틱택토',
+      content: '틱택토 게임',
+      link: 'tic-tac-toe',
+      image: '/images/lottery.jpg'
+    },
   ];
   
